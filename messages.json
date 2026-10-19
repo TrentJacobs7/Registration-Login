@@ -1,0 +1,14 @@
+[
+  {
+    "messageId": "1508296668",
+    "messageHash": "15:2:TESTMESSAGE",
+    "recipient": "+27718693002",
+    "message": "Test message"
+  },
+  {
+    "messageId": "5424512999",
+    "messageHash": "54:8:TESTMESSAGE",
+    "recipient": "+27718693002",
+    "message": "Test message"
+  }
+]

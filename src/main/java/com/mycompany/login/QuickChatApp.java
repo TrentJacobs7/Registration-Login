@@ -15,8 +15,7 @@ public class QuickChatApp {
         String last = sc.nextLine();
 
         String username, password, cell;
-
-        // keep asking until username is valid
+     
         while (true) {
             System.out.print("Username: ");
             username = sc.nextLine();
@@ -24,7 +23,6 @@ public class QuickChatApp {
             if (login.checkUserName(username)) break;
         }
 
-        // keep asking until password is valid
         while (true) {
             System.out.print("Password: ");
             password = sc.nextLine();
@@ -32,7 +30,6 @@ public class QuickChatApp {
             if (login.checkPasswordComplexity(password)) break;
         }
 
-        // keep asking until cell number is valid
         while (true) {
             System.out.print("Cell (+27...): ");
             cell = sc.nextLine();
@@ -61,7 +58,6 @@ public class QuickChatApp {
 
         int messagesCreated = 0;
 
-        // main menu loop
         while (true) {
             System.out.println("\nPlease choose an option:");
             System.out.println("1) Send Messages");
@@ -101,7 +97,6 @@ public class QuickChatApp {
 
                 Message msg = new Message(recipient, text);
 
-                // show message details
                 System.out.println("\nMessage ID: " + msg.getMessageId());
                 System.out.println("Message Hash: " + msg.getMessageHash());
                 System.out.println("Recipient: " + msg.getRecipient());
