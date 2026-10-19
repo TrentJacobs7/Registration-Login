@@ -1,13 +1,13 @@
 [
   {
-    "messageId": "1508296668",
-    "messageHash": "15:2:TESTMESSAGE",
+    "messageId": "2896496104",
+    "messageHash": "28:2:TESTMESSAGE",
     "recipient": "+27718693002",
     "message": "Test message"
   },
   {
-    "messageId": "5424512999",
-    "messageHash": "54:8:TESTMESSAGE",
+    "messageId": "5016709223",
+    "messageHash": "50:8:TESTMESSAGE",
     "recipient": "+27718693002",
     "message": "Test message"
   }
